@@ -1,5 +1,5 @@
-Installation of `IBMPCP`
-========================
+Installation of Bitwi.se’s `IBMPCP` Font
+========================================
 
 Configuration
 -------------
@@ -14,7 +14,8 @@ difficult, seeing as how there really isn’t very much in there.
 Installation
 ------------
 
-To install `IBMPCP` using `sudo(1)` all you need to do is the following:
+To install Bitwi.se’s `IBMPCP` font using `sudo(1)` all you need to do is the
+following:
 
 -----------------------------
 % make

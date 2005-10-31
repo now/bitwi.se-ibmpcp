@@ -3,7 +3,7 @@
 # Copyright © 2004,2005 Nikolai Weibull <nikolai@bitwi.se>
 
 # Package information
-PACKAGE_NAME = ibmpcp
+PACKAGE_NAME = bitwi.se-ibmpcp
 PACKAGE_VERSION = 1.0.0
 PACKAGE_TARNAME = $(PACKAGE_NAME)-$(PACKAGE_VERSION)
 
