@@ -1,0 +1,41 @@
+Installation of `IBMPCP`
+========================
+
+Configuration
+-------------
+
+The `Makefile` is set up to install the fonts into `/usr/share/fonts/ibmpcp` by
+default.  This may be a problem if you don’t have access to the root account
+for installing into this folder, so you might want to alter the 'fontsdir'
+variable in the `Makefile`.  Everything else should work out of the box.  If it
+doesn’t, just poke around in the `Makefile`.  This shouldn’t prove be too
+difficult, seeing as how there really isn’t very much in there.
+
+Installation
+------------
+
+To install `IBMPCP` using `sudo(1)` all you need to do is the following:
+
+-----------------------------
+% make
+⋮
+% sudo make install
+Password:<type root password>
+⋮
+-----------------------------
+
+at a shell prompt, and you’re done.  Alternatively you may use `su(1)` if
+you’re system doesn’t include `sudo(1)`:
+
+------------------------------
+% make
+⋮
+% su
+Password: <type root password>
+# make install
+⋮
+# exit
+------------------------------
+
+You may of course use the `-c` switch to `su(1)` to run `make install`
+immediately, but then you might as well be using `sudo(1)` `;-)`.

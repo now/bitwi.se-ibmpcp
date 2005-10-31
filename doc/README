@@ -1,0 +1,28 @@
+`IBMPCP` README
+===============
+
+Introduction
+------------
+
+`IBMPCP` is a set of two fixed-width fonts, one 5 by 10 and one 7 by 10 in
+size (width/height).  They have been designed to be as readable as possible
+while being compact and small.  They are 'not' recommended for using for long
+editing sessions, as they may result in severe eye-strain as 5 pixels by 10
+pixels isn’t very largish.  I personally don’t use them anymore, as they are
+too small for my bad sight.  They are however very nice, crisp, and
+well designed, so I hope that they may be of use to at least some of the
+terminal buffs out there.  Seeing as there probably aren’t that many of those
+out there with 20/20 vision, that may be hoping for too much `;-)`.
+
+Authors
+-------
+
+Nikolai Weibull <nikolai@bitwi.se>
+
+News
+----
+
+1.0.0
+~~~~~
+
+Not much news.  The fonts are hopefully bug-free and in a state of finality.
